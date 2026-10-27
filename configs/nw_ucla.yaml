@@ -1,0 +1,8 @@
+dataset: nw_ucla
+n_classes: 10
+n_joints: 20
+num_person: 1
+seq_len: 52
+svm: {C: 5.0, gamma: 0.5}
+protocols:
+  main: [6, 4, 1]

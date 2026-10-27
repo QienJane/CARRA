@@ -1,0 +1,31 @@
+train:
+  batch_size: 32
+  views: 2
+  workers: 4
+  base_epochs: 1000
+  incremental_epochs: 100
+  base_lr: 0.001
+  base_final_lr: 0.000001
+  incremental_lr: 0.00001
+  temperature: 0.07
+planner:
+  total_budget: 48
+  topk_old: 3
+  min_budget_per_class: 4
+  max_budget_per_class: 24
+  sample_novelty_thr: 1.0
+  batch_unknown_ratio_thr: 0.60
+  batch_compactness_thr: 0.15
+  relative_dispersion_thr: 2.0
+  weights: [0.45, 0.30, 0.15, 0.10]
+inversion:
+  lr: 1.0
+  momentum: 0.9
+  max_steps: 2000
+  max_attempts_per_class: 240
+  anchor_tolerance: 0.001
+  tolerance: 0.01
+  boundary_step: 0.05
+  boundary_steps: 100
+boundary_threshold: 0.25
+n_pseudo: 3

@@ -1,0 +1,11 @@
+dataset: ntu60
+n_classes: 60
+n_joints: 25
+num_person: 2
+seq_len: 64
+svm: {C: 5.0, gamma: 0.3}
+protocols:
+  main: [30, 3, 10]
+  c5: [30, 6, 5]
+  c10: [30, 3, 10]
+  c20: [20, 2, 20]

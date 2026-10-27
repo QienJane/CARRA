@@ -1,0 +1,8 @@
+dataset: ego_gesture
+n_classes: 83
+n_joints: 42
+num_person: 1
+seq_len: 8
+svm: {C: 1.0, gamma: 0.3}
+protocols:
+  main: [59, 6, 4]

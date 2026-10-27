@@ -1,0 +1,8 @@
+dataset: hgr_shrec_2017
+n_classes: 14
+n_joints: 22
+num_person: 1
+seq_len: 8
+svm: {C: 10.0, gamma: 0.5}
+protocols:
+  main: [8, 6, 1]

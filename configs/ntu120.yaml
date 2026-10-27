@@ -1,0 +1,11 @@
+dataset: ntu120
+n_classes: 120
+n_joints: 25
+num_person: 2
+seq_len: 64
+svm: {C: 10.0, gamma: 0.4}
+protocols:
+  main: [60, 3, 20]
+  c5: [60, 12, 5]
+  c10: [60, 6, 10]
+  c20: [60, 3, 20]
